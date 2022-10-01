@@ -24,7 +24,7 @@ console.log('NODE ENV:', process.env.NODE_ENV);
  */
 export const defaultValues = {
   defaultSegmentId: '89553224-aff5-449b-be32-56c2ab1df5a4',
-  defaultVideoId: '_ok27SPHhwA',
+  defaultVideoId: 'iLudIdMN_W0',
 };
 
 /**

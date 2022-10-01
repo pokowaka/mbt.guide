@@ -202,14 +202,31 @@ const VideoSplitter = ({
         });
         return undefined;
       }
-      if (
-        !currentSegment?.title.length ||
-        !currentSegment?.description.length ||
-        (currentSegment?.tags && currentSegment?.tags?.length < 1)
-      ) {
+
+      if (!currentSegment?.title.length) {
         Swal.fire({
           title: 'Error!',
-          text: 'Blank title or description or you forgot to add tags!',
+          text: `You need to provide a title.`,
+          type: 'error',
+          confirmButtonText: 'OK',
+        });
+        return undefined;
+      }
+
+      if (!currentSegment?.description.length) {
+        Swal.fire({
+          title: 'Error!',
+          text: `You need to provide a description.`,
+          type: 'error',
+          confirmButtonText: 'OK',
+        });
+        return undefined;
+      }
+
+      if (currentSegment?.tags && currentSegment?.tags?.length < 1) {
+        Swal.fire({
+          title: 'Error!',
+          text: `You need to supply at least 1 tag!`,
           type: 'error',
           confirmButtonText: 'OK',
         });

@@ -40,8 +40,8 @@ const Searchbar = (): any => {
 
   const getPlaceHolder = () => {
     return searchType === 'ytVideo'
-      ? 'Search for MBT youtube videos'
-      : 'Search for MBT video segments';
+      ? 'Search for twim youtube videos'
+      : 'Search for twim video segments';
   };
 
   return (
