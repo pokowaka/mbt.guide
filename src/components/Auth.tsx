@@ -1,4 +1,4 @@
-import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
+import StyledFirebaseAuth from './StyledFirebaseAuth';
 import { useDispatch } from 'react-redux';
 import { toast } from 'react-toastify';
 import React from 'react';
@@ -76,6 +76,8 @@ const Auth = ({ setLoading }: { setLoading: (arg0: boolean) => void }): any => {
         requireDisplayName: true,
       },
       firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+      // firebase.auth.FacebookAuthProvider.PROVIDER_ID,
+      // firebase.auth.TwitterAuthProvider.PROVIDER_ID,
     ],
   };
   return <StyledFirebaseAuth uiConfig={uiConfig as any} firebaseAuth={firebase.auth()} />;

@@ -2,7 +2,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 
 // https://refreshless.com/nouislider/
-import 'nouislider/distribute/nouislider.css';
+// import 'nouislider/distribute/nouislider.css';
 import React from 'react';
 import * as utils from '../utils';
 import noUiSlider from 'nouislider';
