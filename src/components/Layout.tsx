@@ -60,7 +60,7 @@ const Layout = ({ children }: { children: any }) => {
               <Icon name="envelope outline" />
               Contact
             </Menu.Item>
-            <Menu.Item
+            {/* <Menu.Item
               as="a"
               href="https://mbt-guide-admin.netlify.app/"
               target="_blank"
@@ -80,7 +80,7 @@ const Layout = ({ children }: { children: any }) => {
                   </Grid.Column>
                 </Grid.Row>
               </Grid>
-            </Menu.Item>
+            </Menu.Item> */}
           </Menu>
         </Sticky>
       </div>
