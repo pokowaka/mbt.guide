@@ -10,7 +10,7 @@ const Contact = (): any => {
       <div className="contact">
         <iframe
           title="contact"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSczVebMK-7iGEuJu2P7Bu88U5zTHrHn4Q2gxkdP83-f3cjPwA/viewform?embedded=true"
+          src="https://forms.gle/3qn9paYZW1LjQCmg9"
           width="800"
           height="800"
           frameBorder="0"
