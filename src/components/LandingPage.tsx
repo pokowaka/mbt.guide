@@ -78,9 +78,8 @@ const LandingPage = (): any => {
           <p></p>
           {user === 'Guest' && <p>Please log in (or sign up) to access all the features.</p>}
           <p>
-            This is an introduction to the My Big TOE, a theory of everything. You can search the
-            video content using keywords, browse through the segments of your interest, create
-            playlists of topics and also create your own segments of videos.
+            Welcome to the Tranquil Wisdom Insight Meditation video indexer. This website can be
+            used to search, and index videos related to meditation.
             <br />
             You can also bookmark your favorite parts and discuss them in comments.
           </p>
