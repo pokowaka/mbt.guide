@@ -1,17 +1,7 @@
 /* eslint-disable react/jsx-key */
 import React, { createRef } from 'react';
 import { useSelector } from 'react-redux';
-import {
-  Icon,
-  Image,
-  Label,
-  Menu,
-  Table,
-  Header,
-  Pagination,
-  Sticky,
-  Grid,
-} from 'semantic-ui-react';
+import { Icon, Image, Table, Header, Pagination, Sticky, Grid } from 'semantic-ui-react';
 import { RootState, setLoadingSegments, useAppDispatch } from 'store';
 import { useTable } from 'react-table';
 import { repository } from 'services';

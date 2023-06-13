@@ -1,6 +1,6 @@
 # mbt.guide
 
-This is a web based app that provides a user friendly interface to view video content related to [MBT](http://my-big-toe.com).
+This is a web based app that provides a user friendly interface to view video content related to [twim](http://dhammasukha.org).
 
 It has a built-in tool for timestamping the YouTube videos.
 
@@ -18,7 +18,7 @@ With this development environment set up, checkout this repository to a local di
 
 In the project directory, you can run:
 
-### `npm install`
+### `npm ci`
 
 Installs dependencies.
 

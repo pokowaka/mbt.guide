@@ -6,7 +6,7 @@ import * as React from 'react';
 //npm install --save react-dnd-html5-backend@3.0.2
 import { WithContext as ReactTags } from 'react-tag-input';
 import { assertModelArrayType, Segment, SegmentTag, Tag } from 'types';
-import { MBTTAGS } from './TagSuggestions';
+import { TWIM_TAGS } from './TagSuggestions';
 import { repository } from 'services';
 
 type ReactTag = {
@@ -14,7 +14,7 @@ type ReactTag = {
   text: string;
 };
 
-const presetSuggestions: ReactTag[] = MBTTAGS.map(mbttag => {
+const presetSuggestions: ReactTag[] = TWIM_TAGS.map(mbttag => {
   return {
     id: mbttag.toLowerCase(), // MBT Tags are globally unique, so the tag name serves as the id
     text: mbttag.toLowerCase(),

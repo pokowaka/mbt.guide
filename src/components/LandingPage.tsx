@@ -28,7 +28,7 @@ const LandingPage = (): any => {
           </h2>
           <p>
             <br />
-            Welcome to the MBT timestamping tool.{' '}
+            Welcome to the twim timestamping tool.{' '}
           </p>
           <p>
             Thank you for your interest and contribution to the timestamping project. You can start
@@ -47,7 +47,7 @@ const LandingPage = (): any => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              MBT Timestamping Guide
+              Twim Timestamping Guide
             </a>
           </p>
           <p>
@@ -58,7 +58,7 @@ const LandingPage = (): any => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              MBT Timestamping Volunteers Channel on Slack
+              Twim Timestamping Volunteers Channel on Slack
             </a>
           </p>
           <Image src={bimage} fluid rounded />
@@ -73,14 +73,13 @@ const LandingPage = (): any => {
           </h2>
           <p>
             <br />
-            Welcome to the <b>MBT Guide</b>!{' '}
+            Welcome to the <b>Twim Guide</b>!{' '}
           </p>
           <p></p>
           {user === 'Guest' && <p>Please log in (or sign up) to access all the features.</p>}
           <p>
-            This is an introduction to the My Big TOE, a theory of everything. You can search the
-            video content using keywords, browse through the segments of your interest, create
-            playlists of topics and also create your own segments of videos.
+            Welcome to the Tranquil Wisdom Insight Meditation video indexer. This website can be
+            used to search, and index videos related to meditation.
             <br />
             You can also bookmark your favorite parts and discuss them in comments.
           </p>
@@ -88,11 +87,11 @@ const LandingPage = (): any => {
           <p>
             If you are interested in contributing as a volunteer, follow this link:&nbsp;
             <a
-              href="https://www.my-big-toe.com/mbt-links/"
+              href="https://www.suttavada.foundation/" // TODO(pokowaka): Update these links
               target="_blank"
               rel="noopener noreferrer"
             >
-              MBT Website
+              Twim Website
             </a>
           </p>
           <p></p>

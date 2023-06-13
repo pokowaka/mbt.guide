@@ -109,7 +109,7 @@ const Videos = ({ videoId }: { videoId?: string }) => {
   // We grab videos from the MBT 'uploads' playlist to save on youtube api search quota points
   const fetchPlaylistVids = async (pageToken?: string): Promise<YTResult<YTVideo>> => {
     const params: any = {
-      playlistId: 'UUYwlraEwuFB4ZqASowjoM0g',
+      playlistId: 'PLaAGsQQiarMM9YNMui4PzZpbWR1JUA7ZF',
     };
     if (pageToken) {
       params.pageToken = pageToken;

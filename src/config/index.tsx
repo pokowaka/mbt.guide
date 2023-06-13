@@ -2,16 +2,7 @@ import { Crud, Association } from '../utils/restful-resource-utility';
 import { Video, Segment, Tag, User, Group, Permission, Role } from '../types';
 
 export default {
-  // serverURI: 'http://localhost:8080',
   serverURI: process.env.REACT_APP_SERVER_URI,
-  // websocketURI: 'ws://localhost:8080',
-  // serverURI: 'http://192.168.86.42:8080',
-  // websocketURI: 'ws://192.168.86.42:8080',
-  appURI: 'http://localhost:3000',
-  // appURI: 'http://192.168.86.42:3000',
-  // serverURI: process.env.SERVER_URI,
-  // websocketURI: process.env.WEBSOCKET_URI,
-  // appURI: process.env.APP_URI,
   fixedLayout: false,
   hideLogoOnMobile: false,
 };
@@ -24,7 +15,7 @@ console.log('NODE ENV:', process.env.NODE_ENV);
  */
 export const defaultValues = {
   defaultSegmentId: '89553224-aff5-449b-be32-56c2ab1df5a4',
-  defaultVideoId: '_ok27SPHhwA',
+  defaultVideoId: 'iLudIdMN_W0', // Guided Loving Kindness Meditation 2 by Delson Armstrong
 };
 
 /**
